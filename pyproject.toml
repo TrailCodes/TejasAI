@@ -1,0 +1,21 @@
+[project]
+name = "AI-Researcher"
+version = "0.1.0"
+description = "An intelligent, multi-agent AI system designed to automate and accelerate academic and industrial research by autonomously analyzing vast information sources, synthesizing findings, and generating novel research hypotheses."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arxiv>=2.2.0",
+    "langchain>=0.3.27",
+    "langchain-core>=0.3.78",
+    "langchain-google-genai>=2.1.12",
+    "langgraph>=0.6.8",
+    "pylatex>=1.4.2",
+    "pypdf>=6.1.1",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "reportlab>=4.4.4",
+    "requests>=2.32.5",
+    "rich>=14.1.0",
+    "typing-extensions>=4.15.0",
+]
