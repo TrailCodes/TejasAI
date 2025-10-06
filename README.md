@@ -1,4 +1,4 @@
-## AI Agent Researcher 🤖
+# AI Agent Researcher 🤖
 
 An intelligent, multi-agent AI system designed to automate and accelerate academic and industrial research by autonomously analyzing vast information sources, synthesizing findings, and generating novel research hypotheses.
 
@@ -31,8 +31,15 @@ Follow these steps to set up the project locally:
 ```bash
 git clone https://github.com/TrailCodes/TejasAI.git
 ```
-
-### 2. Install dependencies with [uv]
+### 2.1 Install uv for windows
+```powershell
+ -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+### 2.2 Install uv on macOS and Linux
+```curl
+ -LsSf https://astral.sh/uv/install.sh | less
+```
+### 3. Install dependencies with [uv]
 
 ```bash
 uv pip install -r requirements.txt
@@ -42,9 +49,15 @@ uv pip install -r requirements.txt
 
 GOOGLE_API_KEY = your gemini_api_key
 
+### 4.Install tectonic
 
-### 4. To Run the Project
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+iex ((New-Object System.Net.WebClient).DownloadString('https://drop-ps1.fullyjustified.net'))
+
+### 5. To Run the Project
 
 ```bash
 uv run ai_researcher.py
 ```
+Watch the video demo:-
+(https://github.com/TrailCodes/TejasAI/blob/main/Hacify_TechNova.mp4)
