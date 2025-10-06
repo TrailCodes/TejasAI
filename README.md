@@ -1,4 +1,4 @@
-# AI Agent Researcher 🤖
+## AI Agent Researcher 🤖
 
 An intelligent, multi-agent AI system designed to automate and accelerate academic and industrial research by autonomously analyzing vast information sources, synthesizing findings, and generating novel research hypotheses.
 
