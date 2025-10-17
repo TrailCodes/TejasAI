@@ -88,14 +88,3 @@ def print_stream(stream):
         print(f"Message received: {message.content[:200]}...")
         message.pretty_print()
 
-while True:
-    user_input = input("User: ")
-    if user_input:
-        messages = [
-                    {"role": "system", "content": INITIAL_PROMPT},
-                    {"role": "user", "content": user_input}
-                ]
-        input_data = {
-            "messages" : messages
-        }
-        print_stream(graph.stream(input_data, config, stream_mode="values"))
